@@ -1,0 +1,22 @@
+# What Is A Typedef?
+
+Let's say we'd like to declare two variables to
+use as coordinates. They'll be of 
+[type](/what-is-a-data-type) `double` but we'd
+like to give them a more descriptive type name.
+In C++ we can do this using the `typedef` keyword.
+
+First, we'll set up our new name:
+```
+typedef double Coordinate
+```
+And then we'll assign our variables:
+```
+Coordinate x, y;
+```
+Now we can say that `x` and `y` are of type 
+`Coordinate`, which clearly indicates how we'll 
+use them.
+
+> This is similar to a Type Alias in TypeScript
+

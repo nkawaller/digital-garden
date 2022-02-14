@@ -1,0 +1,27 @@
+# What Is A Class?
+
+In C++ we can create our own data 
+[types](/what-is-a-data-type) by creating
+_classes_. Think of classes as a data and 
+functions bound together in one entity. We call 
+the class's contents [_members_](/what-are-class-members); 
+_data members_ and _member functions_.
+
+## Example Class Definition
+Here's what a C++ class definition looks like:
+
+```
+class Counter {
+	public:
+		Counter();
+		int getCount();
+		void increaseBy(int x);
+	private:
+		int count;
+	};
+```
+
+The way we define our classes is an important part
+of [designing](/designing-a-cpp-program) our program;
+[here](/guidelines-for-defining-classes) are some
+guidelines.

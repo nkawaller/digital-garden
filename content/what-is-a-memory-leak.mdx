@@ -1,0 +1,10 @@
+# What Is A Memory Leak?
+
+When you [allocate](/managing-memory-in-cpp) memory 
+using the _new_ operator, you get a pointer to that 
+block of memory. If you change the address of that 
+[pointer](/what-are-pointers) without deleting
+the object its pointing to, that object will be 
+adrift somewhere out in memory with no way to access 
+it. This is called a _memory leak_, and it will render
+that memory useless until you stop the program.

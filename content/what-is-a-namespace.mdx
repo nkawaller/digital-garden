@@ -1,0 +1,39 @@
+# What Is A Namespace?
+
+When we name variables and functions in a computer
+program, they have to have unique names. This is 
+easy in a small program but can be difficult in a 
+large one. We can solve this problem by using a 
+_namespace_, which is a mechanism that lets us 
+define a group of related names in one place.
+
+Here's an example of how we can declare some
+variables in a global namespace:
+```
+namespace global_vars {
+	int price;
+	string duck = 'quack';
+	}
+```
+Then we can access them by using
+their _fully qualified name_:
+```
+global_vars::price
+```
+In C++ there's a system namespase called _std_ 
+where we have access to objects such as `cin` and
+`cout`. We can refer to them like this:
+
+```
+std::cin
+std::cout
+```
+We have the option to add this at the top of our
+file:
+```
+using namespace std;
+```
+
+Then we can just write `cin` and `cout`. While
+easier at first, this can lead to name confilcts as
+your program grows.

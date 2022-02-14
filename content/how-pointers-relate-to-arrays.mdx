@@ -1,0 +1,13 @@
+# How Pointers Relate To Arrays
+
+An [array's](/what-is-an-array) name is a 
+[pointer](/what-are-pointers) to its
+first element. This is important because if we 
+have two arrays, `c` and `d`,
+and we want to check their equality:
+```
+c == d
+```
+we aren't checking whether the contents of both 
+arrays are the same. We're checking whether their
+_addresses_ are the same.

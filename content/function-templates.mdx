@@ -1,0 +1,32 @@
+# Function Templates
+
+We use function templates to create reusable
+functions, no matter the 
+[data type](/what-is-a-data-type). Let's say
+we have a function that adds two integers:
+```
+int addInt(int x, int y) {
+	return x + y;
+	}
+```
+Here's how we can define a function template
+that can handle any type:
+```
+template <typename T>
+T genericAdd(T x, T y) {
+	return x + y;
+	}
+```
+When we call this function, the 
+[compiler](/what-is-a-compiler) will look
+at the type we provide and instantiate the proper
+form of the function.
+```
+genericAdd(7,8);
+genericAdd(3.1,6.3);
+```
+
+This is a similar concept to [function overloading](/function-overloading),
+and we can also apply the same concept to classes. In fact, the 
+[STL](/the-standard-template-library) implements many of its classes as
+templates.

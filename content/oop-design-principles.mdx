@@ -1,0 +1,23 @@
+# OOP Design Principles
+
+## Abstraction
+- Distill a complicated system down to its most fundamental parts
+- Describe these parts using simple, precise language
+	- Clear names
+	- Describe their functionality
+- Use Abstract Data Types (ADTs)
+	- Describes the what, not the how
+- Public Interface
+	- Signatures of a class's [public](/public-and-private-class-members) [member functions](/what-are-class-members)
+		- Names
+		- Return types
+		- Argument types
+	- *The functionality of a data structure is expressed through public interface of the associated class that defines that data structure*
+
+## Encapsulation
+Components should conceal their internal workings. That way, programmers are free to implement the details however they want. Then the programmers only constraint is to maintain the abstract interface that other people see.
+
+## Modularity
+Components of a system are divided into separate functional units. One way to acheive this is through inheritance; _common functionality at the most general level, specialized in the children_.
+
+> If we write modules in an abstract way to solve general problems, we can reuse them when the same general problems re-appear

@@ -1,0 +1,14 @@
+# Managing Memory In C++
+
+In C++ we are responsible for managing memory ourselves.
+This means when we create an object we also need to set
+aside a block of memory for it. We can do this using 
+the _new_ operator, which dynamically allocates the correct
+number of [bits](/what-are-bits) based on the object's 
+[type](/what-is-a-data-type) and gives us a 
+[pointer](/what-are-pointers) to the object.
+
+And since C++ doesn't have garbage collection, we need to 
+use the _delete_ operator to deallocate the memory when
+we're done using the object. Otherwise we'll end up with a
+[memory leak](/what-is-a-memory-leak).

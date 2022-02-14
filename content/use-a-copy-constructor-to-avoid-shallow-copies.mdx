@@ -1,0 +1,30 @@
+# Use A Copy Constructor To Avoid Shallow Copies
+
+We need to be careful when copying objects to 
+make sure we're copying exactly what we intend to.
+Look at this example:
+
+```
+Vect a(100);
+Vect b = a;
+Vect c;
+c = a;
+```
+
+This looks like we made three 100-element vectors,
+but we just made three [pointers](/what-are-pointers)
+to the same vector. Here's why. The default behavior in 
+C++ is to make a _shallow copy_. This means only 
+pointers are copied, not contents. We need to use a 
+_copy constructor_ if we want to copy the contents.
+
+## Remember
+Whenever we create a [class](/what-is-a-class) using 
+_new_, we need to:
+- Define a destructor to free up memory
+- Define a copy constructor which will copy
+the contents of member variables and allocate 
+enough memory for them.
+- Define an assignment operator which deallocates
+old memory, allocates new memory and copies all
+member variables

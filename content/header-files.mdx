@@ -1,0 +1,28 @@
+# Header Files
+
+Often we'll have many source files that need
+access to the same objects. So instead of
+repeatedly importing them in each source file,
+we can import them once in _header files_, and 
+then reuse that file in our source code. 
+Header files end in `.h` and and contain our 
+imports and class 
+[declarations](/declaring-vs-defining). The
+import syntax is different too. Normally when
+we import something from the STL, it looks like:
+```
+#include <iostream>
+```
+but to import header files, we do this:
+```
+#include "myIncludes.h"
+```
+
+## Important
+Don't do this in header files:
+```
+using namespace std
+```
+
+It can create [naming conflicts](/what-is-a-namespace)
+in any source file that includes that header file.

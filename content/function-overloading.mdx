@@ -1,0 +1,39 @@
+# Function Overloading
+
+Function overloading is useful when we want one
+[function](/what-is-a-function) to perform the 
+same action on different
+[types](/what-is-a-data-type) of variables.
+Instead of having to define two different functions
+that do the same thing:
+```
+int addInts(int x, int y) {
+        return x + y;
+        }
+
+float addFloats(float x, float y) {
+        return x + y
+}
+```
+We can define functions using the _same name_ 
+that act on arguments of different types:
+
+```
+int add(int x, int y) {
+        return x + y;
+        }
+
+float add(float x, float y) {
+        return x + y
+}
+```
+Now we have one function named `print` that can
+handle either `int` or `float` data types.
+
+
+## Todo
+Overloading vs Function templates
+- Use [templates](/function-templates) when 
+you want to perform the same action on different types.
+- Use overloading when you want to perform different
+actions depending on the type

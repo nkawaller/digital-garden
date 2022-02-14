@@ -1,0 +1,23 @@
+# Working With Pointers
+
+As [mentioned](/what-are-pointers) before, pointers
+are useful for passing variables between functions.
+Here are a few ways that we can work with them.
+
+## Assigning Pointers
+```
+int *x = malloc(10 * sizeof(int));
+```
+
+In the code above we are:
+* allocating enough memory for 10 integers
+* storing the address of that chunk of memory in a
+pointer named `x`.
+
+## Accessing The Address
+Use the `&` operator to see a pointer's address
+
+## Dereferencing
+When we _dereference_ a pointer, we are accessing
+the value of that variable from it's address. We do 
+this using the `*` operator.

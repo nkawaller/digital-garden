@@ -14,9 +14,9 @@ const CodeBlock = (props) => {
       <code
         style={{
           color: "#28282a",
-          fontFamily: "JetBrains mono",
+          fontFamily: "IBM Plex Mono",
           fontSize: ".833rem",
-          fontWeight: 300,
+          fontWeight: 400,
         }}
       >
         {props.children}

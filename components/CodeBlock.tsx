@@ -9,7 +9,8 @@ const CodeBlock = (props) => {
         backgroundColor: alpha("#c9c7c5", 0.2),
         borderRadius: 2,
         padding: 2,
-        overflow: 'auto'
+        overflow: 'auto',
+        WebkitOverflowScrolling: "touch"
       }}
     >
       <code

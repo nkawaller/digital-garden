@@ -9,14 +9,15 @@ const CodeBlock = (props) => {
         backgroundColor: alpha("#c9c7c5", 0.2),
         borderRadius: 2,
         padding: 2,
+        overflow: 'auto'
       }}
     >
       <code
         style={{
           color: "#28282a",
-          fontFamily: "IBM Plex Mono",
+          fontFamily: "'JetBrains Mono', monospace",
           fontSize: ".833rem",
-          fontWeight: 400,
+          fontWeight: 300,
         }}
       >
         {props.children}

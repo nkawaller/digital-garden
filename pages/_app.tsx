@@ -8,7 +8,7 @@ const App = ({ Component, pageProps }: AppProps) => {
     <ThemeProvider theme={theme}>
       <Grid container>
         <Grid item sm={3} md={5} />
-        <Grid item sm={7} md={5} mr={1} ml={1}>
+        <Grid item sx={{ marginLeft: {xs: 1, sm: 0}, marginRight: {xs: 1, sm: 0} }} sm={7} md={5}>
           <Component {...pageProps} />
         </Grid>
       </Grid>

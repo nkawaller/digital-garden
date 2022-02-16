@@ -1,6 +1,7 @@
 import { Typography, Table, Box, TableHead, TableRow } from "@mui/material";
 import CustomLink from "./CustomLink";
 import CodeBlock from "./CodeBlock";
+import Blockquote from "./Blockquote";
 
 const components = {
   h1: (props) => (
@@ -29,6 +30,7 @@ const components = {
       <Typography variant="body1">{props.children}</Typography>
     </Table>
   ),
+  blockquote: Blockquote
 };
 
 export default components;

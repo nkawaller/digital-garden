@@ -10,7 +10,7 @@ const Home = () => {
         </Typography>
       </Box>
       <Box mt={1}>
-        <Link href={"/what-is-a-function"}>
+        <Link href={"/contents"}>
           <Typography variant="h4" fontWeight={300}>
             Working Notes
           </Typography>

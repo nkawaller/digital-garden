@@ -16,19 +16,20 @@ const Blockquote = (props) => {
     >
       <blockquote
         style={{
-          color: "#8c99a6",
+          // color: "#8c99a6",
+          color:  "#949494",
           // fontFamily: "JetBrains Mono",
           // fontSize: ".833rem",
           // fontWeight: 600,
           //   background: "#f9f9f9",
           //   backgroudColor: alpha("#c9c7c5", 0.2),
-          borderLeft: "5px solid #8c99a6",
+          borderLeft: "5px solid #949494",
           // margin: "1.5em 10px",
           // paddingTop: "2rem",
           // padding: "0.5em 10px",
-          padding: "0.5rem",
+          // padding: "0.5rem",
           // margin: "20px",
-          // padding: "20px"
+          paddingLeft: "0.5rem"
         }}
       >
         {props.children}

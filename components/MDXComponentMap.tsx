@@ -5,7 +5,7 @@ import Blockquote from "./Blockquote";
 
 const components = {
   h1: (props) => (
-    <Box mt={4} mb={6} sx={{ textTransform: "uppercase" }}>
+    <Box mt={4} mb={8} sx={{ textTransform: "uppercase" }}>
       <Typography variant="h1">{props.children}</Typography>
     </Box>
   ),

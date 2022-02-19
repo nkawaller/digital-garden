@@ -2,10 +2,12 @@ import { Typography, Table, Box, TableHead, TableRow } from "@mui/material";
 import CustomLink from "./CustomLink";
 import CodeBlock from "./CodeBlock";
 import Blockquote from "./Blockquote";
+import ArrowRightSharpIcon from '@mui/icons-material/ArrowRightSharp';
+import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 
 const components = {
   h1: (props) => (
-    <Box mt={4} mb={8} sx={{ textTransform: "uppercase" }}>
+    <Box sx={{ textTransform: "uppercase", marginTop: {xs: 12, sm: 3}, marginBottom: 22 }}>
       <Typography variant="h1">{props.children}</Typography>
     </Box>
   ),
@@ -26,7 +28,7 @@ const components = {
   li: (props) => <Typography variant="body1">{props.children}</Typography>,
   code: CodeBlock,
   table: (props) => (
-    <Table>
+    <Table sx={{marginBottom: 4}}>
       <Typography variant="body1">{props.children}</Typography>
     </Table>
   ),

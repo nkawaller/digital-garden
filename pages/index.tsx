@@ -4,7 +4,7 @@ import Link from "../components/CustomLink";
 const Home = () => {
   return (
     <>
-      <Box mt={3} sx={{ textTransform: "uppercase" }}>
+      <Box sx={{ textTransform: "uppercase", marginTop: {xs: 12, sm: 3} }}>
         <Typography variant="h1" fontWeight={500}>
           Nathan Kawaller
         </Typography>

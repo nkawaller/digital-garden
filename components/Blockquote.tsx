@@ -13,7 +13,9 @@ const Blockquote = (props) => {
           paddingLeft: "0.5rem"
         }}
       >
+        <i>
         {props.children}
+        </i>
       </blockquote>
     </Box>
   );

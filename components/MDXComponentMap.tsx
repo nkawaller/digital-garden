@@ -7,7 +7,7 @@ import CloseSharpIcon from '@mui/icons-material/CloseSharp';
 
 const components = {
   h1: (props) => (
-    <Box sx={{ textTransform: "uppercase", marginTop: {xs: 12, sm: 3}, marginBottom: 22 }}>
+    <Box sx={{ textTransform: "uppercase", marginTop: {xs: 12, sm: 3}, marginBottom: 21 }}>
       <Typography variant="h1">{props.children}</Typography>
     </Box>
   ),

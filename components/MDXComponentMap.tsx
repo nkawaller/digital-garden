@@ -1,8 +1,9 @@
-import { Typography, Table, Box, List, ListItem, ListItemIcon } from "@mui/material";
+import { Typography, Table, Box, List} from "@mui/material";
 import CustomLink from "./CustomLink";
 import CodeBlock from "./CodeBlock";
 import Blockquote from "./Blockquote";
-import ClearSharpIcon from "@mui/icons-material/ClearSharp";
+import CustomListItem from "./CustomListItem";
+
 
 
 const components = {
@@ -32,14 +33,7 @@ const components = {
     </Box>
   ),
   ul: (props) => <List>{props.children}</List>,
-  li: (props) => (
-    <ListItem dense={true}>
-      <ListItemIcon>
-        <ClearSharpIcon sx={{color: "#949494", fontSize: "0.5rem"}}/>
-      </ListItemIcon>
-      <Typography variant="body1">{props.children}</Typography>
-    </ListItem>
-  ),
+  li: CustomListItem,
   code: CodeBlock,
   table: (props) => (
     <Table sx={{ marginBottom: 4 }}>

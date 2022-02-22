@@ -1,5 +1,4 @@
 import { createTheme } from '@mui/material';
-import Blockquote from './Blockquote';
 
 const theme = createTheme({
   typography: {

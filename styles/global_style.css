@@ -1,0 +1,26 @@
+/* body {
+  background-color: #f9f9f9;
+} */
+
+/* Default table styles for this demo */
+table {
+  border-collapse: collapse;
+  text-align: left;
+  width: 100%;
+}
+table th {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-bottom: 1rem;
+}
+table td {
+  /* background: papayawhip; */
+  /* padding: 10px 20px; */
+  padding-right: 2rem;
+  padding-bottom: 0.25rem;
+}
+
+/* Simple CSS for scrollable table on mobile */
+table {
+  min-width: 800px;
+}

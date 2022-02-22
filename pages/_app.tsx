@@ -3,6 +3,7 @@ import { ThemeProvider, Typography, Box} from "@mui/material";
 import { Grid } from "@mui/material";
 import theme from '../components/theme';
 import Link from '../components/CustomLink'
+import '../styles/global_style.css'
 
 const App = ({ Component, pageProps }: AppProps) => {
   return (

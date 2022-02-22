@@ -12,9 +12,11 @@ table {
 table th {
   text-transform: uppercase;
   font-weight: 600;
+  padding-top: 1rem;
+  padding-right: 2.5rem;
   padding-bottom: 1rem;
 }
 table td {
-  padding-right: 2rem;
+  /* padding-right: 2rem; */
   padding-bottom: 0.25rem;
 }

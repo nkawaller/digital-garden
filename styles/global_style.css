@@ -1,6 +1,7 @@
-/* body {
-  background-color: #f9f9f9;
-} */
+body {
+  color: #28282a;
+  background-color: #eceae4;
+}
 
 /* Default table styles for this demo */
 table {
@@ -14,13 +15,6 @@ table th {
   padding-bottom: 1rem;
 }
 table td {
-  /* background: papayawhip; */
-  /* padding: 10px 20px; */
   padding-right: 2rem;
   padding-bottom: 0.25rem;
-}
-
-/* Simple CSS for scrollable table on mobile */
-table {
-  min-width: 800px;
 }

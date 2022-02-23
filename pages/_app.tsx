@@ -11,6 +11,11 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Grid container>
         <Grid item sx={{ marginLeft: {xs: 1, sm: 0}, marginRight: {xs: 1, sm: 0} }} sm={3} md={5}>
       <Box sx={{ marginTop: {xs: 3, sm: 3}}}>
+        <Link href={"/"}>
+          <Typography variant="subtitle2" fontWeight={400} sx={{ textTransform: "uppercase" }}>
+            Home
+          </Typography>
+        </Link>
         <Link href={"/contents"}>
           <Typography variant="subtitle2" fontWeight={400} sx={{ textTransform: "uppercase" }}>
             Notes

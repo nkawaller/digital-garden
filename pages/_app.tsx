@@ -21,6 +21,11 @@ const App = ({ Component, pageProps }: AppProps) => {
             Notes
           </Typography>
         </Link>
+        <Link href={"https://github.com/nkawaller/digital-garden"}>
+          <Typography variant="subtitle2" fontWeight={400} sx={{ textTransform: "uppercase" }}>
+            Code
+          </Typography>
+        </Link>
       </Box>
           </Grid>
         <Grid item sx={{ marginLeft: {xs: 1, sm: 0}, marginRight: {xs: 1, sm: 0} }} sm={7} md={5}>

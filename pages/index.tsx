@@ -12,8 +12,8 @@ const Home = () => {
       <Box>
         <Typography variant='body1' sx={{marginBottom: 4}}>
         These notes are the output from my daily computer science
-        study. I've found that I learn best by tyring to explain
-        concepts in my own words, and by making connections between
+        study. I've found that I learn best by explaining
+        concepts in my own words, and connecting
         ideas by linking notes together. You can navigate them by
         heading over to the table of&nbsp;
         <Link href={"/contents"}>

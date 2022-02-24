@@ -19,12 +19,11 @@ const Home = () => {
         <Link href={"/contents"}>
         contents
         </Link>,
-        or by
-        just picking one topic and following the links.
+        picking a topic and following the links.
         <br></br>
         <br></br>
         This unstructured style of linked notes is called a digital
-        garden and there are tons of great resources out there if
+        garden and there are great resources out there if
         you'd like to build your own. Here are a few that have
         inspired me.<br></br>
         </Typography>

@@ -1,4 +1,4 @@
-# This Site Is Built With
+# Built With
 - TypeScript
 - NextJS
 - React

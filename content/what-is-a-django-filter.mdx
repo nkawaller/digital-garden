@@ -1,15 +1,14 @@
 # What is a Django filter?
 
 When you're working with Django templates, you have access to these
-mysterious little things called _filters_. You simply add them after
-a variable like this:
+things called _filters_. You simply add them after a variable like this:
 ```
 {{ myVariable | lower }}
 ```
 In the above example, if `myVariable` were set to _Hello World_, it 
 would now be _hello world_.
 
-But filters aren't magical, _they are just [functions](/what-is-a-function)_. 
+But under the hood _filters are just [functions](/what-is-a-function)_. 
 In fact, if you look at the 
 [source code](https://github.com/django/django/blob/main/django/template/defaultfilters.py) 
 for the _lower_ filter, you'll see that it's just this:

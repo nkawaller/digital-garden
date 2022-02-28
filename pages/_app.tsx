@@ -16,7 +16,7 @@ const App = ({ Component, pageProps }: AppProps) => {
             Home
           </Typography>
         </Link>
-        <Link href={"/contents"}>
+        <Link href={"/notes"}>
           <Typography variant="subtitle2" fontWeight={400} sx={{ textTransform: "uppercase"}}>
             Notes
           </Typography>

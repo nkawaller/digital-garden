@@ -16,7 +16,7 @@ const Home = () => {
         concepts in my own words, and connecting
         ideas by linking notes together. You can navigate them by
         heading over to the table of&nbsp;
-        <Link href={"/contents"}>
+        <Link href={"/notes"}>
         contents
         </Link>,
         picking a topic and following the links.

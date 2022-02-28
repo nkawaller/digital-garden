@@ -3,6 +3,8 @@ import CustomLink from "./CustomLink";
 import CodeBlock from "./CodeBlock";
 import Blockquote from "./Blockquote";
 import CustomListItem from "./CustomListItem";
+import TimeStamp from "./TimeStamp";
+import Tag from "./Tag";
 
 
 
@@ -11,8 +13,6 @@ const components = {
     <Box
       sx={{
         textTransform: "uppercase",
-        marginTop: { xs: 12, sm: 3 },
-        marginBottom: 21,
       }}
     >
       <Typography variant="h1">{props.children}</Typography>
@@ -41,6 +41,8 @@ const components = {
     </Table>
   ),
   blockquote: Blockquote,
+  TimeStamp,
+  Tag,
 };
 
 export default components;

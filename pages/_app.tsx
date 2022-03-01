@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import { DefaultSeo } from "next-seo";
 import { ThemeProvider, Typography, Box} from "@mui/material";
 import { Grid } from "@mui/material";
 import theme from '../components/theme';
@@ -29,6 +30,16 @@ const App = ({ Component, pageProps }: AppProps) => {
       </Box>
           </Grid>
         <Grid item sx={{ marginLeft: {xs: 1, sm: 0}, marginRight: {xs: 1, sm: 0} }} sm={7} md={5}>
+        <DefaultSeo
+          title="Nathan Kawaller's digital garden"
+          description="Nathan's notes on computer science, music and korean"
+          openGraph={{
+            type: "website",
+            locale: "en_US",
+            url: "https://www.nathankawaller.com/",
+            site_name: "Nathan Kawaller Working Notes",
+          }}
+        />
           <Component {...pageProps} />
         </Grid>
       </Grid>

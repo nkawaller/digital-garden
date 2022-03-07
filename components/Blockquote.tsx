@@ -8,8 +8,8 @@ const Blockquote = (props) => {
     >
       <blockquote
         style={{
-          color:  "#949494",
-          borderLeft: "5px solid #949494",
+          color:  "#707070",
+          borderLeft: "5px solid #707070",
           paddingLeft: "0.5rem"
         }}
       >

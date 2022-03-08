@@ -31,7 +31,7 @@ const App = ({ Component, pageProps }: AppProps) => {
           </Grid>
         <Grid item sx={{ marginLeft: {xs: 1, sm: 0}, marginRight: {xs: 1, sm: 0} }} sm={7} md={5}>
         <DefaultSeo
-          title="Nathan Kawaller's digital garden"
+          title="Nathan Kawaller"
           description="Nathan's notes on computer science, music and korean"
           openGraph={{
             type: "website",

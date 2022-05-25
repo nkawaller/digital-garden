@@ -13,6 +13,7 @@ const noteLinks = [
   "guidelines-for-defining-classes",
   "header-files",
   "how-pointers-relate-to-arrays",
+  "if-name-equals-main",
   "java-method-signature-syntax",
   "managing-memory-in-cpp",
   "oop-design-goals",

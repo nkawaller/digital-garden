@@ -15,6 +15,7 @@ const noteLinks = [
   "how-pointers-relate-to-arrays",
   "if-name-equals-main",
   "java-method-signature-syntax",
+  "korean",
   "managing-memory-in-cpp",
   "oop-design-goals",
   "oop-design-principles",
